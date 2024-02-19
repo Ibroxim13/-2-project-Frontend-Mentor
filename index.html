@@ -7,14 +7,78 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <title>Newsletter sign-up form with success message</title>
 </head>
 
 <body>
 
 
+    <div class="container">
+        <section class="row">
+            <div class="col">
+                <h1>Stay Updated!</h1>
+                <p>Join 60,000+ product managers receiving monthly updates on:</p>
+                <ul class="lists-of-updates">
+                    <li>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+                                <g fill="none">
+                                    <circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155" />
+                                    <path stroke="#FFF" stroke-width="2" d="M6 11.381 8.735 14 15 8" />
+                                </g>
+                            </svg>
+                        </div>
+                        <span class="list-text">Product discovery and building what matters</span>
+                    </li>
+                    <li>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+                                <g fill="none">
+                                    <circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155" />
+                                    <path stroke="#FFF" stroke-width="2" d="M6 11.381 8.735 14 15 8" />
+                                </g>
+                            </svg>
+                        </div>
+                        <span class="list-text">Measuring to ensure updates are a success</span>
+                    </li>
+                    <li>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+                                <g fill="none">
+                                    <circle cx="10.5" cy="10.5" r="10.5" fill="#FF6155" />
+                                    <path stroke="#FFF" stroke-width="2" d="M6 11.381 8.735 14 15 8" />
+                                </g>
+                            </svg>
+                        </div>
+                        <span class="list-text">And Much more!</span>
+                    </li>
+                </ul>
+                <form class="form-email">
+                    <div class="form-header">
+                        <label>Email address</label>
+                        <span>Valid email required</span>
+                    </div>
+                    <input required class="email" type="text" placeholder="email@company.com">
+                    <button type="submit">Subscribe to monthly newsletter</button>
+                </form>
+            </div>
+            <div class="col image">
+            </div>
+        </section>
+        <section class="success-message">
+            <img src="./assets/images-icons/icon-success.svg" alt="">
+            <h1>Thanks for subscribing!</h1>
+            <p>
+                A confirmation email sent to <span class="user-email">ibrohim@gmail.com</span>.
+                Please open it and click the button inside to confirm your subscribtion.
+            </p>
+            <button class="dismiss-message">Dismiss message</button>
+        </section>
+    </div>
 
+
+    <script src="script.js"></script>
 </body>
 
 </html>
